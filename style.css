@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{font-family: 'Anton', sans-serif;
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    z-index: 999;
+    justify-content: space-between;
+    display: flex;
+    padding: 3px 150px;
+}
+
+.logo{
+    font-size: 1.9em;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(70, 24, 24);
+    text-transform: uppercase;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: rgb(70, 24, 24);
+    padding-left: 15px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+
+.main{
+    background-image: url(images/téléchargement.jfif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.main h2{
+    color: #f0f0f0;
+    font-size: 1.3em;
+    font-weight: 800;
+
+}
+
+.main h2 span{
+    color: rgb(71, 26, 26);
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.main h3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn{
+       color: #fff;
+       text-decoration: none;
+       background-color: none;
+       border-color: rgb(70, 24, 24);
+      border-style: solid ; 
+       border-radius: 15px ;
+       padding: 0.937em 2.1875em;
+       display: inline-block;
+       transition: 1.3s ease;
+       font-size: 1.0em;
+}
+
+.main-btn:hover{
+    transform:scale(1.1);
+    box-shadow: 0  5px 60px rgb(53, 23, 23);
+}
+
+.social-icons a{
+    margin: 15px;
+    font-size: 2em;
+    margin-top: 30px;
+    text-decoration: none;
+    color: #fff;
+    transition: 1.3s ease;
+}
+
+.social-icons a:hover{
+    color: rgb(36, 18, 18);
+    transform: matrix(1.1);
+}
+
+.title{
+    display: flex;
+    font-size: 3em;
+    color: rgb(70, 24, 24);
+    font-weight: 700;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.card{
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba( 1 1 1);
+    padding: 10px;
+    border-radius: 20px;
+    transition: 1.6s ease;
+    width: 20em;
+    margin: 20px;
+    margin-top: 50px;
+}    
+                                                
+.card:hover{
+    transform: scale(1.2);
+}
+
+.services-icon{
+    color: rgb(70, 24, 24);
+    font-size: 10em;
+    text-align: center;
+}
+
+.info h3{
+    color: rgb(70, 24, 24);
+    letter-spacing: 1px;
+    font-weight: 1000px;
+}
+
+.info{
+    text-align: center;
+}
+
+.projects{
+    background-color: rgb(70, 24, 24);
+} 
+
+.projects-title{
+    display: flex;
+    font-size: 3em;
+    color: rgb(70, 24, 24);
+    font-weight: 700;
+    justify-content: center;
+}
+
+.Projects .content{
+    margin-top: 30px;
+}
+
+.projects h2{
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.projects-card {
+    background-color: #fff;
+    border: 3px solid #fff;
+    width: 23em;   
+    overflow: hidden;
+    border-radius: 15px;
+    transition: 0.7s ease;
+    margin: 20px ;
+}
+
+.projects-card:hover{
+    transform: scale(1.1);
+}
+
+.projects-card img{
+    width: 100%;
+}
+
+.projects-card img:hover{
+       opacity: 0.9; 
+}
+
+.projects-info{
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.projects-title-a{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px ;
+  margin-bottom: 7px;
+  color: red; 
+}
+
+.projects-title-a span:hover{
+    text-decoration: 2px underline;
+}
+
+.projects-title-b{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px ;
+    margin-bottom: 7px; 
+    color: rgb(32, 194, 194);  
+}
+
+.projects-title-b span:hover{
+    text-decoration: 2px underline;
+}
+
+  .projects-title-c{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px ;
+    margin-bottom: 7px;
+    color: rgb(70, 24, 24); 
+  }
+ 
+.projects-title-c span:hover{
+    text-decoration: 2px underline;
+}
+
+.more-details {
+    opacity: 0.6;
+    color: black;
+    text-decoration: none;
+}
+
+.more-details:hover{
+    color: rgb(71, 26, 26);
+    opacity: 100%;
+    text-decoration: 2px underline;
+}
+
+.contact-card{
+    background-color: #fff;
+    width: 22em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 65%);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+    transition: 0.7s ease;
+}
+
+.contact-card:hover{
+    transform: scale(1.1);
+}
+
+.titles{
+    text-align: center;
+}
+
+.titles h2{
+    font-size: 1.7em;
+    color: rgb(71, 26, 26);
+}
+
+.icon{
+    font-size: 5em;
+    color: rgb(70, 24, 24);
+}
+
+.number{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.footer {
+    background-color: rgb(49, 18, 18);
+    color: #fff;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title span{
+    color: brown;
+}
+
+.footer .social-icon a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+  margin-left: 10px;
+}
+
+@media (max-width:1023px){
+    body{
+        font-size: 13px;
+    }
+    header{
+        padding: 1px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        align-items: center;
+    }
+    
+}
